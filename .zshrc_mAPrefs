@@ -9,8 +9,8 @@ export EDITOR=vim
 # -------
 setopt APPEND_HISTORY           
 # share history between zsh processes 
-setopt INC_APPEND_HISTORY     
-setopt SHARE_HISTORY
+#setopt INC_APPEND_HISTORY     
+#setopt SHARE_HISTORY
 
 LISTMAX=0                      # automaticaly decide when to page a list of completions
 MAILCHECK=0                    # disable mail checking
