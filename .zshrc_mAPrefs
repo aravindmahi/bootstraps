@@ -5,6 +5,13 @@ alias c='clear'
 
 export EDITOR=vim
 
+# key bindings for mac
+# --------------------
+bindkey "^[[1~" beginning-of-line
+bindkey "^[[3~" delete-char
+bindkey "^[[4~" end-of-line
+
+
 # history
 # -------
 setopt APPEND_HISTORY           
@@ -14,5 +21,3 @@ setopt APPEND_HISTORY
 
 LISTMAX=0                      # automaticaly decide when to page a list of completions
 MAILCHECK=0                    # disable mail checking
-
-alias tmux='TERM=xterm-256color tmux'
